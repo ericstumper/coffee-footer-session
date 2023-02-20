@@ -1,8 +1,23 @@
+html {
+  font-size: var(--font-size-m);
+  font-family: Roboto;
+  height: 100%;
+
+  @media (min-width: 900px) {
+    font-size: var(--font-size);
+  }
+}
+
 body {
-  background: grey;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   @media (min-width: 768px) {
-    color: red;
+    
   }
 }
 
@@ -26,4 +41,15 @@ img {
 
 h2 {
   font-size: var(--h2-font-size);
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }

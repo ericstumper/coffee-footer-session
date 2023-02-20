@@ -1,7 +1,10 @@
 :root {
   /* Colors */
-  --div-color: red;
+  --color-white: #FFFFFF;
+  --color-anthrazit: #1A1A1A;
 
   /* Text Styles */
+  --font-size-m: 14px;
+  --font-size: 18px;
   --h2-font-size: 26px;
 }
